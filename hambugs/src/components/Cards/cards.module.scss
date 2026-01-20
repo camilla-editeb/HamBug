@@ -5,11 +5,11 @@ div{
 }
 
 .item {
-  display: flex;       /* Isso coloca a imagem ao lado do texto */
-  flex-direction: row; /* Força a linha horizontal */
+  display: flex;       
+  flex-direction: row; 
   width: 100%;
 
-  border-bottom: 1px solid #333; /* Linha divisória */
+  border-bottom: 1px solid #333; 
   padding-bottom: 20px;
   margin-bottom: 20px;
   background-color: transparent;

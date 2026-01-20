@@ -124,7 +124,7 @@ export default function Menu() {
 
             <button 
                     className={s.botaoFlutuante} 
-                    onClick={() => setModalAberto(true)} // Ao clicar, abre a janela
+                    onClick={() => setModalAberto(true)} 
                 >
                     🛒 <span>{carrinho.length}</span>
             </button>
@@ -134,7 +134,6 @@ export default function Menu() {
                     <div className={s.janelaModal}>
                         <div className={s.modalHeader}>
                             <h3>Seu Carrinho</h3>
-                            {/* Botão X para fechar */}
                             <button onClick={() => setModalAberto(false)}>✖</button>
                         </div>
 
